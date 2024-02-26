@@ -16,10 +16,89 @@ header{
     width: 95%;
     height: 63vh;
     margin: 0 auto;
+    transition: 1s all ease;
+    position: relative;
+    top: 8vh;
+}
+.header-text-up-container{
+    width: 100%;
+    height: 40%;
+    color: #F266CB;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 24vh;
+    line-height: 17vh;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: 1s all ease;
+    bottom: 0;
+}
+.header-text-inside-container{
+    width: 100%;
+    height: 0;
+    background-color: #2E292A;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 0vh;
+    letter-spacing: 2.5vh;
+    color: white;
+    z-index: 0;
+    transition: 1s all ease;
+}
+.header-container:hover > .header-text-inside-container{
+    height: 18%;
+    opacity: 1;
+    font-size: 10vh;
+}
+.header-container:hover > .header-text-up-container{
+    bottom: 0.75vh;
+}
+.header-container:hover > .header-text-down-container{
+    top: 0.75vh;
+}
+.header-container:hover{
+    top: 0;
+}
+.header-text-down-container{
+    width: 100%;
+    height: 40%;
+    color: #6A32E2;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 24vh;
+    line-height: 17vh;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: white;
+    z-index: 1;
+    transition: 1s all ease;
+    position: relative;
+    top: 0;
+}
+.header-text-down-container p{
+    position: relative;
+    bottom: 8vh;
+}
+.header-text-up-container p{
+    position: relative;
+    top: 9vh;
 }
 .hall-of-fame{
     width: 100%;
-    height: 75vh;
+    height: 65vh;
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -38,7 +117,7 @@ header{
 }
 .hall-container{
     width: 95%;
-    height: 58vh;
+    height: 52vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +125,33 @@ header{
 }
 .hall-img-list{
     width: 100%;
-    height: 58vh;
+    height: 52vh;
     display: flex;
     align-items: center;
     list-style-type: none;
+}
+.hall-img{
+    width: 20%;
+    height: 92%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all ease;
+}
+.hall-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s all ease;
+}
+.hall-img:hover{
+    width: 110%;
+}
+.hall-img:hover > img{
+    width: 110%;
+    height: 150%;
+    object-fit: cover;
 }
 .hall-text-end-container{
     width: 95%;
@@ -82,75 +184,83 @@ header{
 }
 .collection-img-1{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 11.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-img-2{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 12.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-img-3{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 13.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-img-4{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 14.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-img-5{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 15.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-img-6{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 16.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-img-7{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 17.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-img-8{
     width: 24%;
-    height: 47vh;
+    height: 49.2%;
     background-image: url(img/Rectangle\ 18.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: end;
+    transition: 1s;
 }
 .collection-inside{
     width: 100%;
@@ -159,14 +269,65 @@ header{
     flex-direction: column;
     background-color: rgba(30, 30, 30, 0.8);
     backdrop-filter: blur(3px);
+    opacity: 0;
+    transition: 1s;
+}
+.collection-img-1:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-1:hover{
+    scale: 0.95;
+}
+.collection-img-2:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-2:hover{
+    scale: 0.95;
+}
+.collection-img-3:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-3:hover{
+    scale: 0.95;
+}
+.collection-img-4:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-4:hover{
+    scale: 0.95;
+}
+.collection-img-5:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-5:hover{
+    scale: 0.95;
+}
+.collection-img-6:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-6:hover{
+    scale: 0.95;
+}
+.collection-img-7:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-7:hover{
+    scale: 0.95;
+}
+.collection-img-8:hover > .collection-inside{
+    opacity: 1;
+}
+.collection-img-8:hover{
+    scale: 0.95;
 }
 .collection-inside-text-up{
     width: 100%;
-    height: 5vh;
+    height: 6vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 2.5vh;

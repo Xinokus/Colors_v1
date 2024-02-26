@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container{
+    width: 95%;
+    height: 63vh;
+    margin: 0 auto;
+}
+.hall-of-fame{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hall-text-container{
+    width: 95%;
+    height: 11vh;
+    margin: 0 auto;
+}
+.hall-text{
+    font-size: 7vh;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #2E292A;
+}
+.hall-container{
+    width: 95%;
+    height: 58vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.hall-img-list{
+    width: 100%;
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.hall-text-end-container{
+    width: 95%;
+    height: 7vh;
+    margin: 0 auto;
+}
+.hall-text-end{
+    font-size: 5vh;
+    font-family: 'Montserrat';
+    text-align: end;
+    color: #2E292A;
+}
+.collection{
+    width: 100%;
+    height: 120vh;
+    margin-top: 5vh;
+}
+.collection-img-container{
+    width: 95%;
+    height: 95.5vh;
+    margin: 0 auto;
+}
+.collection-img-list{
+    width: 100%;
+    height: 95.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.collection-img-1{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-img-2{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-img-3{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-img-4{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-img-5{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-img-6{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-img-7{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-img-8{
+    width: 24%;
+    height: 47vh;
+    background-image: url(img/Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.collection-inside{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(30, 30, 30, 0.8);
+    backdrop-filter: blur(3px);
+}
+.collection-inside-text-up{
+    width: 100%;
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+.collection-inside-text-middle{
+    width: 100%;
+    height: 12vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+.collection-inside-text-bottom{
+    width: 50%;
+    height: 6vh;
+    color: white;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 1.7vw;
+    text-align: end;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+.collection-inside-link{
+    color: #47B198;
+    text-decoration: none;
+}
+.collection-inside-text-button-container{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection-inside-text-button{
+    width: 85%;
+    height: 5vh;
+    background-color: #47B198;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 2vh;
+}
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #2E292A;
+}

@@ -7,28 +7,27 @@
 }
 header{
     width: 100%;
-    height: 75vh;
+    height: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .header-container{
     width: 95%;
-    height: 63vh;
-    margin: 0 auto;
+    height: 18vw;
     transition: 1s all ease;
     position: relative;
-    top: 8vh;
+    bottom: 0;
 }
 .header-text-up-container{
     width: 100%;
-    height: 40%;
+    height: 7vw;
     color: #F266CB;
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 24vh;
-    line-height: 17vh;
+    font-size: 14vw;
+    line-height: 14vw;
     overflow: hidden;
     display: flex;
     align-items: end;
@@ -49,35 +48,36 @@ header{
     align-items: center;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 0vh;
-    letter-spacing: 2.5vh;
+    font-size: 0%;
+    letter-spacing: 0vw;
     color: white;
     z-index: 0;
     transition: 1s all ease;
 }
 .header-container:hover > .header-text-inside-container{
-    height: 18%;
+    height: 7vw;
     opacity: 1;
-    font-size: 10vh;
+    font-size: 5vw;
+    letter-spacing: 2vw;
 }
 .header-container:hover > .header-text-up-container{
-    bottom: 0.75vh;
+    bottom: 0.5vw;
 }
 .header-container:hover > .header-text-down-container{
-    top: 0.75vh;
+    top: 0.5vw;
 }
 .header-container:hover{
-    top: 0;
+    bottom: 3vw;
 }
 .header-text-down-container{
     width: 100%;
-    height: 40%;
+    height: 7vw;
     color: #6A32E2;
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 24vh;
-    line-height: 17vh;
+    font-size: 14vw;
+    line-height: 14vw;
     overflow: hidden;
     display: flex;
     align-items: start;
@@ -90,11 +90,11 @@ header{
 }
 .header-text-down-container p{
     position: relative;
-    bottom: 8vh;
+    bottom: 6.7vw;
 }
 .header-text-up-container p{
     position: relative;
-    top: 9vh;
+    top: 7.3vw;
 }
 .hall-of-fame{
     width: 100%;

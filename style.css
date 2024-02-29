@@ -45,18 +45,21 @@ header{
     background-color: #2E292A;
     border: white;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 0%;
     letter-spacing: 0vw;
+    line-height: 0vw;
     color: white;
     z-index: 0;
     transition: 1s all ease;
 }
 .header-container:hover > .header-text-inside-container{
     height: 7vw;
+    line-height: 3vw;
     opacity: 1;
     font-size: 5vw;
     letter-spacing: 2vw;

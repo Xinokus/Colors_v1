@@ -36,7 +36,7 @@ header{
     height: 0vw;
     transition: 1s;
     object-fit: cover;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/img/car.png) no-repeat center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/car.png) no-repeat center;
     background-size: cover;
 }
 .header-1-1:hover > img{
